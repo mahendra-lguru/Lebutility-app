@@ -1,0 +1,4 @@
+#Thu Mar 14 18:36:53 IST 2019
+base.0=E\:\\IONIC\\lebutility-app\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

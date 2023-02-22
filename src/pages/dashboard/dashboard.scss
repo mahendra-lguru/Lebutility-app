@@ -1,0 +1,42 @@
+page-dashboard {
+    
+    .col_background_house{
+        background: #00e9d5;
+        margin: 5px;
+        opacity: 1.2;
+    }
+    .col_background_bill{
+        background: #ae75e7;
+        margin: 5px;
+        opacity: 1.2;
+    }
+    .label-md {
+        margin: 5px 5px 5px 5px;
+    }
+    .label-ios {
+        margin: 5px 5px 5px 5px;
+    }
+    .toolbar-background-md{
+        background: #00e9d5;
+    }
+    .toolbar-background-ios{
+        background: #00e9d5;
+    }
+    .toolbar-title-md{
+        color: #fff;
+        margin-left: 15%;
+    }
+    .toolbar-title-ios{
+        color: #fff;
+    }
+    .text{
+        font-size: 1.7rem;
+        color: #fff;
+    }
+    img{
+        height: 100px;
+    }
+    ion-icon{
+        font-size: 2.2em;
+    }
+}

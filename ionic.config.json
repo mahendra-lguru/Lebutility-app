@@ -1,0 +1,7 @@
+{
+  "name": "Eutility",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

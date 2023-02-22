@@ -1,0 +1,132 @@
+page-house-bill {
+
+    .toolbar-title{
+        width: 85%;
+    }
+    .toolbar-background-md{
+        background: #00e9d5;
+    }
+    .toolbar-background-ios{
+        background: #00e9d5;
+    }
+    .toolbar-title-md{
+        color: #fff;
+    }
+    .toolbar-title-ios{
+        color: #fff;
+    }
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{
+        color : #fff;
+    }
+    .bar-button-default-ios, .bar-button-clear-ios-default, .bar-button-ios-default{
+        color : #fff;
+    }
+    .text{
+        font-size: 1.7rem;
+        color: #000;
+    }
+    .arrow_img{
+        height: 20px;
+        width: 10px;
+    }
+    .list_text{
+        font-size: 1.7rem;
+        text-align: center;
+        color: #000;
+    }
+    .item-md{
+        padding-left: 0px;
+    }
+    .item-ios{
+        padding-left: 0px;
+    }
+    .item-md.item-block .item-inner{
+        padding-right: 0px;
+        border-bottom: 1px solid #000;
+    }
+    .item-ios.item-block .item-inner{
+        padding-right: 0px;
+        border-bottom: 1px solid #000;
+    }
+    
+    .header-md::after, .tabs-md[tabsPlacement="top"] > .tabbar::after, .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before
+    {
+        background-image : none;
+    }
+    .header-ios::after, .tabs-ios[tabsPlacement="top"] > .tabbar::after, .footer-ios::before, .tabs-ios[tabsPlacement="bottom"] > .tabbar::before
+    {
+        background-image : none;
+    }
+    .footer{
+        font-size: 16px;
+        color: #6486f7;
+    }
+    .item-md.item-block .item-inner{
+        border-bottom: none;
+    }
+    .item-ios.item-block .item-inner{
+        border-bottom: none;
+    }
+    .item-md{
+        background: transparent;
+    }
+    .item-ios{
+        background: transparent;
+    }
+    .label-md{
+        margin : 0px 0px 0px 0px;
+    }
+    .label-ios{
+        margin : 0px 0px 0px 0px;
+    }
+    .top_card{
+        border-radius : 10px;
+        padding: 5px;
+    }
+    .select-md{
+        padding: 13px 8px 13px 16px;
+        width: 100%;
+    }
+    ion-select{
+        max-width : 100%;
+    }
+    .border{
+        border: 2px solid #ae75e7;
+        border-radius: 5px;
+    }
+    .button-md{
+        padding : 0 3.1em
+    }
+    .button-ios{
+        padding : 0 3.1em
+    }
+    .card{
+        border-radius: 10px;
+    }
+    .bill{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: flex;
+    }
+    .button{
+        background: #00e9d5;
+        color: #fff;
+        text-transform: capitalize;
+    }
+    .button-md.activated {
+        background-color: #00e9d5;
+        -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.14), 0 3px 5px rgba(0, 0, 0, 0.21), 0 0 0 0 transparent;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.14), 0 3px 5px rgba(0, 0, 0, 0.21), 0 0 0 0 transparent;
+      }
+      .button-ios.activated {
+        background-color: #00e9d5;
+        -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.14), 0 3px 5px rgba(0, 0, 0, 0.21), 0 0 0 0 transparent;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.14), 0 3px 5px rgba(0, 0, 0, 0.21), 0 0 0 0 transparent;
+      }
+      .select-md .select-icon .select-icon-inner{
+        color : #000;
+      }
+      .select-ios .select-icon .select-icon-inner{
+        color : #000;
+      }
+}

@@ -1,0 +1,47 @@
+<!--
+  Generated template for the ClientListPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title text-center>List Clients</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content margin-top>
+
+  <ion-grid>
+    <ion-searchbar placeholder="Search Client" [(ngModel)]="searchTerm" (ionInput)="getItems($event)"></ion-searchbar>
+    <!-- (ionInput)="setFilteredItems()" -->
+    <!-- <div *ngIf="list" margin-top> -->
+
+    <!-- <ion-list>
+            <ion-row (click)="Client_click(clients,i)" class="back_white" id="client_{{i}}">
+            <ion-item *ngFor="let clients of client_array; let i = index;" (click)="Client_click(clients,i)" class="back_white" id="client_{{i}}">
+                {{clients.name}}
+            </ion-item>
+          </ion-list> -->
+
+    <ion-list *ngFor="let clients of client_array; let i = index;">
+      <ion-row (click)="Client_click(clients,i)" class="back_white" id="client_{{i}}">
+        <ion-col col-11>
+          <b>{{clients.name}}</b>
+        </ion-col>
+        <ion-col col-1>
+          <img src="assets/arrow.png" class="arrow_img">
+        </ion-col>
+      </ion-row>
+
+    </ion-list>
+    <!-- </div> -->
+
+  </ion-grid>
+
+
+
+</ion-content>

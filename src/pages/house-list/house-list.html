@@ -1,0 +1,42 @@
+<!--
+  Generated template for the HouseListPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title text-center>List Houses</ion-title>
+    
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content margin-top>
+
+    <ion-grid>
+        <ion-searchbar  placeholder="Search House" [(ngModel)]="searchTerm"  *ngIf="hide_searchbar" ></ion-searchbar>
+        <!-- (ionInput)="setFilteredItems()" -->
+
+        <ion-label *ngIf="hide_label" text-center>House Does Not Exists!</ion-label>
+    
+    
+        <div *ngIf="list" margin-top>
+    
+          <ion-list *ngFor="let clients_house of house_array; let i = index;">
+            <ion-row (click)="House_click(clients_house,i)" class="back_white" id="house_{{i}}">
+              <ion-col col-5><b>House {{i}} #ID{{clients_house.id}}</b></ion-col>
+              <ion-col col-6 text-wrap><b>{{clients_house.address}}{{clients_house.city}}{{clients_house.zone_name}}</b></ion-col>
+              <ion-col col-1>
+                <img src="assets/arrow.png" class="arrow_img">
+              </ion-col>
+            </ion-row>
+    
+          </ion-list>
+        </div>
+    
+      </ion-grid>
+
+</ion-content>

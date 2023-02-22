@@ -1,0 +1,154 @@
+page-pay-bill {
+
+    .header-md::after, .tabs-md[tabsPlacement="top"] > .tabbar::after, .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before
+    {
+        background-image : none;
+    }
+    .header-ios::after, .tabs-ios[tabsPlacement="top"] > .tabbar::after, .footer-ios::before, .tabs-ios[tabsPlacement="bottom"] > .tabbar::before
+    {
+        background-image : none;
+    }
+    .footer{
+        font-size: 16px;
+        color: #6486f7;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .text_month_yr{
+        font-size: 2.1rem;
+        color: #000;
+    }
+    .col_border{
+        border: 2px solid #ae75e7;
+        border-radius: 5%;
+        
+    }
+    .item-md{
+        padding-left: 0px;
+    }
+    .item-ios{
+        padding-left: 0px;
+    }
+
+    .item-md.item-input.item-input-has-focus .item-inner,
+    .item-md.item-input.input-has-focus .item-inner {
+        border-bottom-color: unset;
+        -webkit-box-shadow: inset 0 -1px 0 0 #fff;
+        box-shadow: inset 0 -1px 0 0 #fff;
+    }
+    .item-ios.item-input.item-input-has-focus .item-inner,
+    .item-ios.item-input.input-has-focus .item-inner {
+        border-bottom-color: unset;
+        -webkit-box-shadow: inset 0 -1px 0 0 #fff;
+        box-shadow: inset 0 -1px 0 0 #fff;
+    }
+
+    .item-md.item-block .item-inner {
+        padding-right: 0px;
+        border-bottom: unset;
+    }
+    .item-ios.item-block .item-inner {
+        padding-right: 0px;
+        border-bottom: unset;
+    }
+
+    .scroll-content{
+        overflow-y : hidden;
+    }
+    
+    .border{
+        border-bottom:  1px solid #bcbcbc;
+    }
+
+    .item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner,
+    .item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+        border-bottom-color: #fff;
+        -webkit-box-shadow: inset 0 -1px 0 0 #fff;
+        box-shadow: inset 0 -1px 0 0 #fff;
+    }
+    .item-ios.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner,
+    .item-ios.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+        border-bottom-color: #fff;
+        -webkit-box-shadow: inset 0 -1px 0 0 #fff;
+        box-shadow: inset 0 -1px 0 0 #fff;
+    }
+
+    .list-md .item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus):last-child, .list-md .item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus):last-child {
+        border-bottom-color: #ae75e7;
+        -webkit-box-shadow: inset 0 -1px 0 0 #ae75e7;
+        box-shadow: inset 0 -1px 0 0 #ae75e7;
+    }
+    .list-ios .item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus):last-child, .list-ios .item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus):last-child {
+        border-bottom-color: #ae75e7;
+        -webkit-box-shadow: inset 0 -1px 0 0 #ae75e7;
+        box-shadow: inset 0 -1px 0 0 #ae75e7;
+    }
+    .list-md .item-input.item-input-has-focus:last-child,
+    .list-md .item-input.input-has-focus:last-child {
+        border-bottom-color: #ae75e7;
+        -webkit-box-shadow: inset 0 -1px 0 0 #ae75e7;
+        box-shadow: inset 0 -1px 0 0 #ae75e7;
+    }
+    .list-ios .item-input.item-input-has-focus:last-child,
+    .list-ios .item-input.input-has-focus:last-child {
+        border-bottom-color: #ae75e7;
+        -webkit-box-shadow: inset 0 -1px 0 0 #ae75e7;
+        box-shadow: inset 0 -1px 0 0 #ae75e7;
+    }
+    .toolbar-title{
+        width: 85%;
+    }
+    .top_card{
+        border-radius : 10px;
+        padding: 5px;
+    }
+    .toolbar-background-md{
+        background: #00e9d5;
+    }
+    .toolbar-background-ios{
+        background: #00e9d5;
+    }
+    .toolbar-title-md{
+        color: #fff;
+    }
+    .toolbar-title-ios{
+        color: #fff;
+    }
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{
+        color : #fff;
+    }
+    .bar-button-default-ios, .bar-button-clear-ios-default, .bar-button-ios-default{
+        color : #fff;
+    }
+    .button{
+        background: #00e9d5;
+        color: #fff;
+        text-transform: capitalize;
+    }
+    .button-md{
+        padding : 0 3.1em
+    }
+    .button-ios{
+        padding : 0 3.1em
+    }
+    .button-md.activated {
+        background-color: #00e9d5;
+        -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.14), 0 3px 5px rgba(0, 0, 0, 0.21), 0 0 0 0 transparent;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.14), 0 3px 5px rgba(0, 0, 0, 0.21), 0 0 0 0 transparent;
+    }
+    .button-ios.activated {
+        background-color: #00e9d5;
+        -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.14), 0 3px 5px rgba(0, 0, 0, 0.21), 0 0 0 0 transparent;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.14), 0 3px 5px rgba(0, 0, 0, 0.21), 0 0 0 0 transparent;
+    }
+    .footer{
+        color : #000;
+    }
+    .datetime-md{
+        margin-right: 20px;
+    }
+    .datetime-ios{
+        margin-right: 20px;
+    }
+}

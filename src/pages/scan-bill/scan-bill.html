@@ -1,0 +1,48 @@
+<!--
+  Generated template for the ScanBillPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title text-center>Search</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content margin-top>
+
+  <ion-grid margin-top>
+    <ion-row justify-content-center (click)="Barcode()">
+      <ion-col text-center col-6 class="col_border">
+        <img src="assets/barcode.png" alt="image">
+        <ion-label class="text">
+          <b>Scan Bill barcode</b>
+        </ion-label>
+      </ion-col>
+    </ion-row>
+
+    <ion-label text-center margin-top class="text" margin-top>
+      <b>Or</b>
+    </ion-label>
+
+    <ion-row justify-content-center margin-top>
+      <ion-col text-center col-6 class="col_border">
+        <ion-item>
+          <ion-input type="text" placeholder="Enter Bill id" [(ngModel)]="bill_id" class="inputtext"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="row_margin">
+      <ion-col col-12 (click)="Search()">
+        <button ion-button full class="button">Search</button>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>

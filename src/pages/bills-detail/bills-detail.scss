@@ -1,0 +1,47 @@
+page-bills-detail {
+
+    .image{
+        height: 150px;
+        width: 200px;
+        background: #fff;
+    }
+    .item-md{
+        padding-left: 10px;
+    }
+    .item-ios{
+        padding-left: 10px;
+    }
+    .item-md.item-block .item-inner{
+        padding-right: 0px;
+    }
+    .item-ios.item-block .item-inner{
+        padding-right: 0px;
+    }
+    .toolbar-title{
+        width: 85%;
+    }
+    .border{
+        border-bottom:  1px solid #bcbcbc;
+    }
+    .col{
+        padding: 0px;
+    }
+    .toolbar-background-md{
+        background: #00e9d5;
+    }
+    .toolbar-background-ios{
+        background: #00e9d5;
+    }
+    .toolbar-title-md{
+        color: #fff;
+    }
+    .toolbar-title-ios{
+        color: #fff;
+    }
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{
+        color : #fff;
+    }
+    .bar-button-default-ios, .bar-button-clear-ios-default, .bar-button-ios-default{
+        color : #fff;
+    }
+}

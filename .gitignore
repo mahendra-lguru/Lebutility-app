@@ -1,0 +1,72 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+*.sublime-workspace
+.vscode/
+npm-debug.log*
+
+1)Splash screen not change (Client side Pending)
+
+2)All page Background gradient not the same as per the pdf
+
+3)Landing page
+ a) Logo not same as per the pdf (Client side Pending)
+ b) Check book a groom button shadow (Done)
+ c) Remove shadow form sign in button (Done)
+
+4)Book Now Verification page –
+ a) Title text change – Verify - New (Done)
+ b) check bottom text position
+ c) After keypad open design not proper
+ d) Check spacing -  with keypad and without keypad
+ e) Not need to scroll
+
+5)Book now  – pet details
+ a) Title text change - Add Pet Details - New (Done)
+ b) pet size (S,L,XL) missing on load (Done)
+ c) when keypad open - not same as per the design (Discuss with Mikyun Sir)
+
+6)Package details
+ a) When page scroll - not same as per the design (Done)
+
+7)Select Plan
+ a) Check border radius and shadow [Done]
+ b) Fixed the process bar, title and pet icon fixed when scroll [Done]
+
+8)Add add-on
+ a) add-ons only scroll on this page (Done)
+ b) final total should be fixed (Done)
+
+9) location Map -1
+ a) change search input filed text icon as per the pdf
+ b) no need to show select location text in input on load
+ c) check the input size, border, and shadow
+ d) no need button on this screen after select address house no input show
+
+10)Location map – 2
+ a) check the input size, border, and shadow
+ b) no need icon on selected address input field
+ c) button show only after user enter the house no
+
+11)Create Appointment
+ a) Check header shadow and background gradient
+ b) Check selected date border and shadow
+ c) Button show only after select groomer, date and time (Done)
+ d) hide others time and show button after select time
+
+12)View Cart – Cart
+ a) Only cart section scroll [Done]
+ b) Fixed  total, Terms&con and button as per the pdf [Done]
+
+13)Add a Credit Card
+ a) Please check design as per the pdf  when keypad open
+
+14)Booking #
+ a) Total should be fixed
